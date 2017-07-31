@@ -1,0 +1,80 @@
+/* CSS for website */
+h1 , h2{
+    border-bottom: 1px solid #EFEAEA;
+    padding-bottom: 3px;
+}
+.markdown-section>:first-child {
+    margin-top: 0!important;
+}
+.page-wrapper {
+    margin-top: -1.275em;
+}
+.book .book-body .page-wrapper .page-inner section.normal {
+    min-height:350px;
+    margin-bottom: 30px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal hr {
+    height: 0px;
+    padding: 0;
+    margin: 1.7em 0;
+    overflow: hidden;
+    background-color: #e7e7e7;
+    border-bottom: 1px dotted #e7e7e7;
+}
+
+.video-js {
+    width:100%;
+    height: 100%;
+}
+
+pre[class*="language-"] {
+    border: none;
+    background-color: #f7f7f7;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal {
+    font-size: 16px;
+    font-family:  "ubuntu", "Tahoma", "Microsoft YaHei", arial, sans-serif;
+}
+
+.aceCode {
+  font-size: 14px !important;
+}
+
+input[type=checkbox]{
+    margin-left: -2em;
+}
+
+/*.mark是由检索定位到具体页面时，原来的颜色为棕色，太浅*/
+.mark, mark {
+    background-color: #ff0 !important;
+}
+
+/*把每个页面的页尾的文字的样式*/
+.markdown-section * {
+    box-sizing: border-box;
+    font-size: inherit;
+}
+
+/*隐藏"本书由gitbook发布"这个li*/
+.book-summary ul.summary li:last-child {
+    display: none;
+}
+
+/*隐藏"本书由gitbook发布"这个li上一个的横线*/
+.book-summary ul.summary li:nth-last-child(2) {
+    display: none;
+}
+
+/*去掉import形式引入的code文件界面里的右边竖线*/
+.ace-chrome .ace_print-margin {
+    width: 1px;
+    background: none !important;
+}
+
+
+
+

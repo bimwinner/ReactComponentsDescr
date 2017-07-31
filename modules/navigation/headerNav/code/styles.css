@@ -1,0 +1,92 @@
+.headerContainer {
+	color: #5c5c5c;
+	background-color: white;
+	width: 100%;
+	padding: 4px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:70px;
+	box-shadow: 0 1px 1px #ccc;
+	z-index: 1000;
+}
+
+.menus{
+	width: 850px;
+	position: absolute;
+	top: 4px;
+	left: 310px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.menuItem{
+	display: block;
+	float: left;
+	margin-right: 0px;
+	text-decoration:none;
+	color: #5c5c5c;
+	width: 5em;
+	padding-top: 5px;
+	height: 66px;
+}
+
+.menuItem:hover{
+	background: #ddd;
+	color: #5c5c5c;
+}
+
+.current{
+	background: #5584c4;
+	color: white;
+	pointer-events: none;
+}
+
+.menuItem.current:hover{
+	background: #5584c4;
+	color: white;
+}
+
+.menuItemIcon{
+	width: 32px;
+	height: 36px;
+	font-size: 26px;
+	display: inline-block;
+	background-position: 0 0;
+	color: #5584C4;
+}
+
+.current .menuItemIcon{
+	color: white;
+}
+
+.current:hover .menuItemIcon{
+}
+
+.mainPage:before{    /*类名为index.js里的json对象里的name的值*/
+	font-size: 30px;
+	content: "\e600";  /*图标字体文件里的图标具体id，这个需要引入Icon的字体文件iconfont.css*/
+}
+
+
+.twoPage:before {
+	font-style: 30px;
+	content: "\e624";
+}
+
+
+.firstPage:before {
+	font-size: 30px;
+	content: "\e625";
+}
+
+.modelManager:before{
+	font-size: 30px;
+	content: "\e601";
+}
+
+.newPage:before{
+	font-size: 30px;
+	content: "\e606";
+}
+
