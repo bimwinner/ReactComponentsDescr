@@ -11,7 +11,7 @@ npm install gitbook-cli -g
 git clone https://github.com/bimwinner/ReactComponentsDescr.git
 cd ReactComponentsDescr
 gitbook install   //安装gitbook的项目依赖
-gitbook serve     //运行本地服务器
+gitbook serve     //运行gitbook本地服务器
 ```
 * 在浏览器中打开 `http://localhost:4000/` 进行访问
 
