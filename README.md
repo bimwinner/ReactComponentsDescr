@@ -16,9 +16,16 @@ gitbook serve     //运行gitbook本地服务器
 * 在浏览器中打开 `http://localhost:4000/` 进行访问
 
 ## 开发须知
+##### 1、修改页尾内容
 * 从`github`上`clone`本项目并且`gitbook install`运行之后，会发现运行出来的界面的页尾版权会有`all right reserved，powered by Gitbook`这一段，并且导致`更新时间这一项`换行了。如果想去掉这样的效果，就需要改源码。
 * 进入`node_modules`文件夹找到`gitbook-plugin-tbfed-pagefooter`文件夹，打开`index.js`文件。
 * 在`index.js`第19行，替换这一行为：`_copy = _c ? _c  : + ' all right reserved，' + _copy;`。
+* 保存并`gitbook serve`编译即可查看。
+
+##### 2、修改Ace Plugin插件
+* 官方默认由import的代码文件的code高度为100行，这样子的情况下高度太大，很占地方。下面提供修改其高度。
+* 进入`node_modules`文件夹找到`gitbook-plugin-ace`文件夹，再进入`assets`文件夹，打开`ace.js`文件。
+* 在`ace.js`第16行，修改其`maxLines`的值，我在这里设置为49。
 * 保存并`gitbook serve`编译即可查看。
 
 ## GitBook 资源
