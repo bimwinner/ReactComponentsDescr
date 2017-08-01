@@ -1,0 +1,109 @@
+
+/************     slideModal     ************/
+/* General styles for all menus */
+.cbpMenu {
+    background-color: #ffffff;
+    position: absolute;
+    width: 280px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    opacity: 0.9;
+    border: 1px solid;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.cbpMenu button {
+    margin: 5px;
+}
+
+.cbpMenu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.cbpMenu ul li span {
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+.cbpMenu ul li span:nth-child(1) {
+    width: 35%;
+}
+.cbpMenu ul li span:nth-child(2) {
+    width: 58%;
+}
+/* .cbpMenu li:hover {
+    background: #f3f3f3;
+    color: #000;
+} */
+
+/* Orientation-dependent styles for the content of the menu */
+.cbpMenuVertical {
+    width: 280px;
+    height: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.cbpMenuVertical li {
+    width: 280px;
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    color: #000;
+    font-size: 1.1em;
+    list-style: none;
+}
+
+
+/* Vertical menu that slides from the left or right */
+.cbpMenuRight {
+    right: -280px;
+}
+
+
+.cbpMenuRight.cbpMenuOpen {
+    right: 0px;
+}
+
+
+
+/* Transitions */
+.cbpMenu {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* Example media queries */
+@media screen and (max-height: 26.375em){
+    .cbpMenuVertical {
+        font-size: 90%;
+        width: 190px;
+    }
+    .cbpMenuRight {
+        right: -190px;
+    }
+}
+
+.modalIcon {
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    z-index: 101;
+    right: -240px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.modalIn {
+    right: 0;
+}
+.modalOut {
+    right: 280px;
+}
+

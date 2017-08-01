@@ -30,7 +30,7 @@
 * 2、在项目的模版页面`BasePage`的`index.js`里声明和引用`Footer`页尾组件。
 
 ```js
-import Footer from '../../Components/Footer';   //声明 
+import Footer from '../../Components/Footer';   //声明，路径要填写正确 
 
 <Footer />           //引用
 

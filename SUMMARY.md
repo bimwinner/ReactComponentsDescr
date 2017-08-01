@@ -14,4 +14,8 @@
 * [UserPanel 用户面板](modules/accountPanel/userPanel/userPanel.md)
 
 ## 页尾
-* [footer 页尾](modules/footer/footer/footer.md)
+* [Footer 页尾](modules/footer/footer/footer.md)
+
+## 侧边栏
+* [SlideSideBar 弹出侧边栏](modules/sideBar/slideSideBar/slideSideBar.md)
+
