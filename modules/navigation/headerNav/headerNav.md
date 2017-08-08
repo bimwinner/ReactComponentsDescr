@@ -48,9 +48,11 @@
 
 ## API
 ### headerNames
-`属性：` headerNames
+`参数：` headerNames
 
 `说明：` 一级导航栏的菜单内容
+
+`是否必填: ` 必填
 
 `类型：` json对象数组 object[]
 
