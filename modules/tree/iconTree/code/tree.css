@@ -1,0 +1,115 @@
+@import '../../utils/icon/css/icons.min.css';
+.tree {
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+}
+.tree li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  outline: 0;
+}
+.tree li ul {
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+.switcher:before,
+.checkbox:before,
+.layer:before,
+.layerParentHide:before,
+.layerHide:before,
+.layerHideParentHide:before {
+  display: inline-block;
+  font-family: "BIMicons";
+  font-size: 16px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 16px;
+  height: 16px;
+  width: 16px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.tree-noline_open:before {
+  content: '\f35f';
+}
+.tree-noline_close:before {
+  content: '\f363';
+}
+.tree-roots_open:before {
+  content: '\f35f';
+}
+.tree-roots_close:before {
+  content: '\f363';
+}
+.tree-center_open:before {
+  content: '\f35f';
+}
+.tree-center_close:before {
+  content: '\f363';
+}
+.tree-bottom_open:before {
+  content: '\f35f';
+}
+.tree-bottom_close:before {
+  content: '\f363';
+}
+.switcher-noop:before {
+  content: ' ';
+}
+.checkbox:before {
+  content: '\f372';
+  color: #36f;
+}
+.checkbox-checked:before {
+  content: '\f373';
+}
+.checkbox-indeterminate:before {
+  content: '\f33e';
+  color: #69f;
+}
+.checkbox-disabled:before {
+  content: '\f371';
+  color: #ccc;
+}
+.layer:before {
+  content: '\f133';
+  color: #69f;
+}
+.layerHide:before {
+  content: '\f306';
+  color: #69f;
+}
+.layerParentHide:before {
+  content: '\f133';
+  color: #ccc;
+}
+.layerHideParentHide:before {
+  content: '\f306';
+  color: #ccc;
+}
+.treenode-title {
+  margin-left: 0.5em;
+  color: #333;
+}
+.treenode-title:hover {
+  color: #69f;
+}
+.treenodeContentWrapper {
+  background-color: none;
+}
+.treenodeSelected {
+  background-color: #cdf;
+}
+/*# sourceMappingURL=tree.css.map */

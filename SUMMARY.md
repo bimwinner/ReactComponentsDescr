@@ -19,3 +19,6 @@
 ## 侧边栏
 * [SlideSideBar 弹出侧边栏](modules/sideBar/slideSideBar/slideSideBar.md)
 
+## 树
+* [IconTree 眼睛树](modules/tree/iconTree/iconTree.md)
+
