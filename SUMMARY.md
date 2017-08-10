@@ -6,6 +6,7 @@
 
 ## 导航栏
 * [一级导航栏](modules/navigation/headerNav/headerNav.md)
+* [二级导航栏](modules/navigation/sideMenu/sideMenu.md)
 
 ## 图标字体
 * [Icons 图标字体](modules/iconfont/Icons/iconfont.md)

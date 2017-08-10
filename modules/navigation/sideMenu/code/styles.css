@@ -1,0 +1,325 @@
+.sideMenu{
+	height: 100%;
+	width: 70px;
+	float: left;
+	background-color: #84a2d4;
+}
+
+.sideMenu a{
+	font-family: sans-serif, "宋体", "SimSun";
+	width: 100%;
+	height: auto;
+	min-height: 80px;
+	display: block;
+	text-align: center;
+	text-decoration:none;
+	font-size: 12px;
+	padding: 10px;
+	color: white;
+}
+
+.sideMenu a:hover{
+	background: #88aae2;
+	color: white;
+}
+
+.sideMenu a.current{
+	background: #5a79ba;
+	pointer-events: none;
+}
+
+.sideMenu a.hasChild.current{
+	background-color: #84a2d4;
+}
+
+.sideMenuItemIcon{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-position: 0 0;
+}
+
+.subMenu{
+	margin-bottom: 10px;
+	position: relative;
+	transition: height .5s, opacity .8s;
+	overflow: hidden;
+}
+
+.subMenu:before{
+	content: "";
+	display: block;
+	width: calc(100% - 10px);
+	height: 1px;
+	margin: 0 5px;
+	background: #99b6ec;
+	margin-bottom: 3px;
+}
+
+.subMenu:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height:10px;
+}
+
+.subMenu a{
+	line-height: 2em;
+	height: auto;
+	min-height: 0;
+	padding: 0;
+}
+
+.show{
+	//display: block;
+	opacity: 1;
+	height: auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 2px 2px #6e85af;
+}
+
+.hidden{
+	//display: none;
+	opacity: 0;
+	height: 0;
+}
+
+/* 横向菜单 */
+
+.sideMenuHorizontal{
+	height: 100%;
+	width: calc(100% - 20px);
+	background-color: white;
+	margin: 0 10px;
+	text-align: center;
+}
+.sideMenuHorizontal a{
+	background-color: #f4f4f4;
+	color: #3b3b3b;
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.sideMenuHorizontal a:hover{
+	background-color: #83A1D3;
+	color: white;
+}
+
+.sideMenuHorizontal>div{
+	margin: 0 0 5px 0;
+}
+
+.sideMenuHorizontal a span{
+	width: 22px;
+	height: 30px;
+	margin: 0 5px 0 -10px;
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: 30px;
+}
+.sideMenuHorizontal a.current{
+	background: #5a79ba;
+}
+.sideMenuHorizontal .subMenu{
+	width: calc(100% - 40px);
+	margin: 0 20px;
+	border-radius: 0;
+	box-shadow: none;
+}
+.sideMenuHorizontal .subMenu:before{
+	content: none;
+}
+.sideMenuHorizontal .subMenu:after{
+	content: none;
+}
+
+.sideMenuHorizontal .subMenu div{
+	height: auto;
+	margin: 3px 0;
+}
+.sideMenuHorizontal .subMenu a.current{
+	background: #5a79ba;
+	pointer-events: none;
+}
+.sideMenuHorizontal .subMenu a.current:hover{
+	background: #5a79ba;
+}
+.sideMenuHorizontal .subMenu a:hover{
+	background-color: #e7e7e7;
+	color: #3b3b3b;
+}
+/* 设计模型 */
+.designModel:before{
+	content: "\e610";
+	font-size: 32px;
+}
+/* 图纸展示 */
+.graphExhibition:before{
+	content: "\e62e";
+	font-size: 32px;
+}
+/* 施工进度 */
+.cnstrctSchedule:before{
+	content: "\e611";
+	font-size: 32px;
+}
+/* 工程质量 */
+.quality:before{
+	content: "\e613";
+	font-size: 32px;
+}
+/* 工程投资 */
+.investment:before{
+	content: "\e612";
+	font-size: 32px;
+}
+/* 工程文档 */
+.engineeringDocuments:before{
+	content: "\e614";
+	font-size: 32px;
+}
+/* 设计管理*/
+.designManagement:before{
+	content: "\e602";
+	font-size: 32px;
+}
+/* 图纸报审*/
+.drawingReview:before{
+	content: "\e615";
+	font-size: 32px;
+}
+/* 成本管理 */
+.costCompare:before{
+	content: "\e615";
+	font-size: 32px;
+}
+/* 数据统计 */
+.statistic:before{
+	content: "\e615";
+	font-size: 32px;
+}
+/* 材料费用 */
+.materialCost:before{
+	content: "\e615";
+	font-size: 32px;
+}
+/* 修改通知报审 */
+.drawingNoticeReview:before{
+	content: "\e616";
+	font-size: 32px;
+}
+/* 清单导入 */
+.costListImport:before{
+	content: "\e616";
+	font-size: 32px;
+}
+/* 质量管理 */
+.qualityManagement:before{
+	content: "\e603";
+	font-size: 32px;
+}
+/* 单元工程填报 */
+.unitProjectReport:before{
+	content: "\e617";
+	font-size: 32px;
+}
+/* 1类质量验评 */
+.qualityInspectionA:before{
+	content: "\e618";
+	font-size: 32px;
+}
+/* 工序资料 */
+.processData:before{
+	content: "\e946";
+	font-size: 32px;
+}
+/* 进度管理 */
+.progressMana:before{
+	content: "\e604";
+	font-size: 32px;
+}
+/* 进度计划填报 */
+.progressPlan:before{
+	content: "\e61a";
+	font-size: 32px;
+}
+/* 实际进度填报 */
+.realProgress:before{
+	content: "\e61b";
+	font-size: 32px;
+}
+/* 节点填报 */
+.timeNodeFill:before{
+	content: "\e61d";
+	font-size: 32px;
+}
+/* 结算管理 */
+.accountMana:before{
+	content: "\e625";
+	font-size: 32px;
+}
+/* 进度计划详情 */
+.progressDetailPage:before{
+	content: "\e61b";
+	font-size: 32px;
+}
+/* 施工计划输入 */
+.cnstrctPlan:before{
+	content: "\e61d";
+	font-size: 32px;
+}
+/* 基础数据 */
+.baseData:before{
+	content: "\e608";
+	font-size: 32px;
+}
+/* 模型管理 */
+.modelManagement:before{
+	content: "\e62a";
+	font-size: 32px;
+}
+/* 工程数据 */
+.engineeringData:before{
+	content: "\e628";
+	font-size: 32px;
+}
+/* 基础投资信息 */
+.investInfo:before{
+	content: "\e629";
+	font-size: 32px;
+}
+/* 用户管理 */
+.userManagement:before{
+	content: "\e62d";
+	font-size: 32px;
+}
+/* 用户设置 */
+.userSetting:before{
+	content: "\e62c";
+	font-size: 32px;
+}
+/* 系统设置 */
+.systemSetting:before{
+	content: "\e62b";
+	font-size: 32px;
+}
+/* TODO */
+/* 工作任务 */
+.taskManagement:before{
+	content: "\e922";
+	font-size: 32px;
+}
+/* 进度预警 */
+.processAlert:before{
+	content: "\e62f";
+	font-size: 32px;
+}
+/* 个人文档 */
+.userSet:before{
+	content: "\e62c";
+	font-size: 32px;
+}
