@@ -111,6 +111,11 @@
 * 验证是否能正常使用百度的`logo`，可以查看 [使用示例](#使用示例)。
 
 
+## 源码下载
+
+<a href="./code/IconFont.zip?_blank" title="下载 IconFont 组件" target="_blank">源码下载</a>
+
+
 ## 如何使用
 * 根据`制作步骤`最终会生成3个图标字体文件：`iconfont.ttf`、`iconfont.svg`和`iconfont.woff`。
 

@@ -77,6 +77,12 @@
 
 ```
 
+
+## 源码下载
+
+<a href="./code/HeaderNavigation.zip?_blank" title="下载 HeaderNavigation 组件" target="_blank">源码下载</a>
+
+
 ## 使用说明
 1、复制代码生成index.js、menus.js、styles.css文件。
 

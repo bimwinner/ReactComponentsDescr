@@ -24,6 +24,11 @@
 组件css样式 
 [import](./code/styles.css)
 
+## 源码下载
+
+<a href="./code/Footer.zip?_blank" title="下载 Footer 组件" target="_blank">源码下载</a>
+
+
 ## 如何使用
 * 1、在项目里的Components文件夹里新建一个文件夹Footer，里面存放的文件就是 [组件源码](#组件源码)   的文件结构。
 

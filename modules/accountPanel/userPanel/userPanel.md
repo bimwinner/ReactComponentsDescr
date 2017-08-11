@@ -44,6 +44,11 @@
 [import](code/styles.css)
 <br />
 
+## 源码下载
+
+<a href="./code/UserPanel.zip?_blank" title="下载 UserPanel 组件" target="_blank">源码下载</a>
+
+
 ## 如何使用
 
 * 1、在项目里的`Components`文件夹里新建一个文件夹`UserPanel`，里面存放的文件就是 [组件原理](#组件原理)  的文件结构。
